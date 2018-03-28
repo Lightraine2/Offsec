@@ -1,0 +1,13 @@
+
+Set mona logs folder =
+!mona config -set workingfolder c:\logs\%p
+
+Then you can create patterns! =D
+!mona pattern_create 1100   ect ect - output to log folder.
+
+easy mode
+
+!mona pc 1100
+!mona po (EIP address)
+!mona findmsp  - after crash, walks the stack to find patterns. This indicates where you have buffer locations for shellcode.
+!mona jmp -r esp   - find a jump esp location
